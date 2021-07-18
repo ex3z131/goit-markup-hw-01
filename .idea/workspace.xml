@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca5e9995-6543-4607-b074-abeaf85943ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -55,7 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1626433854614</updated>
       <workItem from="1626433855743" duration="2453000" />
-      <workItem from="1626445873392" duration="1130000" />
+      <workItem from="1626445873392" duration="2726000" />
+      <workItem from="1626506727030" duration="6820000" />
+      <workItem from="1626609553586" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="task 1">
       <created>1626433929243</created>
@@ -92,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626434329723</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task 4">
+      <created>1626447768887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626447768887</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task 5">
+      <created>1626447917093</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626447917093</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +138,8 @@
     <MESSAGE value="task 1" />
     <MESSAGE value="task 2" />
     <MESSAGE value="task 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 3" />
+    <MESSAGE value="task 4" />
+    <MESSAGE value="task 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 5" />
   </component>
 </project>

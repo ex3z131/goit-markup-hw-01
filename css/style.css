@@ -78,4 +78,18 @@ color: var(--primary-white-color);
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
+/*apps-nav*/
+.apps-nav .link{
+    color: var(--secondary-text-color);
+    background-color: var(--primary-white-color);
+}
+.apps-nav .link:hover,
+.apps-nav .link:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.apps-link .title{
+    color: var(--secondary-text-color);
+}
+
 

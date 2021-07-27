@@ -1,0 +1,81 @@
+:root{
+    --primary-text-color: #757575;
+    --secondary-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+}
+body{
+    color:var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+/*Logo*/
+.logo{
+    color: var(--secondary-text-color);
+}
+.logo:hover{
+    color: var(--accent-color);
+}
+/* SiteNav*/
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color);
+}
+.site-nav .link{
+    color: var(--secondary-text-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+/*contactnav*/
+.contact-nav .link-register:hover,
+.contact-nav .link-register:focus{
+    color:var(--accent-color);
+}
+.contact-nav .link-register{
+    color: var(--primary-text-color);
+}
+/*herosection*/
+.help-section .title{
+    color: var(--secondary-text-color);
+}
+/*worksection*/
+.work-title{
+    color:var(--secondary-text-color);
+}
+.work {
+    color: var(--primary-white-color);
+}
+/*aboutteam*/
+.team-title{
+color: var(--secondary-text-color);
+}
+.team .namepeople{
+    color: var(--secondary-text-color);
+}
+.team .link-social:hover,
+.team .link-social:focus{
+    background-color: var(--accent-color);
+}
+/*regularcustomers*/
+.regular-customers .title{
+    color: var(--secondary-text-color);
+}
+.regular-customers .link-company:hover,
+.regular-customers .link-company:focus{
+    color: var(--accent-color);
+}
+.information .place{
+color: var(--primary-white-color);
+}
+.join{
+    color: var(--primary-white-color);
+}
+.subscribe{
+    color: var(--primary-white-color);
+}
+/*button*/
+.button{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+

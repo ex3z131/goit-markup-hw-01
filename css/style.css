@@ -2,7 +2,7 @@
     --primary-text-color:#757575;
     --secondary-text-color:#212121;
     --accent-color:#2196F3;
-    --primary-white-color:#FFFFFF;
+    --primary-white-color:#ffffff;
 }
 body{
     color:var(--primary-text-color);

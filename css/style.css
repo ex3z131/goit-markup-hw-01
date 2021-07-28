@@ -3,31 +3,36 @@
     --secondary-text-color:#212121;
     --accent-color:#2196F3;
     --primary-white-color:#ffffff;
+    --primary-font-text:Roboto,sans-serif;
+    --secondary-font-text:Raleway,sans-serif;
 }
 
 body{
     color:var(--primary-text-color);
     background-color: var(--primary-white-color);
-    font-family: Roboto,sans-serif;
+    font-family: var(--primary-font-text);
     font-weight: 400;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.7;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: Roboto, sans-serif;
     font-weight: bold;
 }
 /*Logo*/
 .logo{
     color: var(--secondary-text-color);
-    font-family: Raleway,sans-serif;
+    font-family: var(--secondary-font-text);
     font-size: 26px;
+    font-weight: bold;
     line-height:1.2;
     text-decoration: none;
 
 }
 .logo:hover{
+    color: var(--accent-color);
+}
+.logo-blue{
     color: var(--accent-color);
 }
 /* SiteNav*/
@@ -39,9 +44,7 @@ color: var(--accent-color);
     list-style: none;
 }
 .site-nav .link{
-    font-family: Roboto,sans-serif;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -56,18 +59,17 @@ color: var(--accent-color);
     color:var(--accent-color);
 }
 .contact-nav .link-register{
-    font-family: Roboto,sans-serif;
+    text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
+
 /*herosection*/
 .hero-title{
     color: var(--primary-white-color);
     background: var(--secondary-text-color);
-    font-family: Roboto,sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -80,7 +82,6 @@ color: var(--accent-color);
 .hero .button-hero{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    font-family: Roboto,sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.8;
@@ -94,8 +95,6 @@ color: var(--accent-color);
 
 .help-section .title{
     color: var(--secondary-text-color);
-    font-family: Roboto,sans-serif;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 
@@ -115,7 +114,6 @@ color: var(--accent-color);
     background-color: var(--secondary-text-color);
     font-family: Roboto,sans-serif;
     font-weight: bold;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -129,7 +127,6 @@ color: var(--secondary-text-color);
 }
 .team .namepeople{
     color: var(--secondary-text-color);
-    font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -138,7 +135,7 @@ color: var(--secondary-text-color);
     text-align: center;
 }
 .product-text{
-    font-family: Roboto,sans-serif;
+    text-transform: capitalize;
     font-size: 16px;
     line-height: 1.2;
     /* identical to box height */
@@ -152,7 +149,6 @@ color: var(--secondary-text-color);
 /*regularcustomers*/
 .regular-customers .title{
     color: var(--secondary-text-color);
-    font-family: Roboto,sans-serif;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -163,8 +159,6 @@ color: var(--secondary-text-color);
 }
 .information .place{
 color: var(--primary-white-color);
-    font-family: Roboto,sans-serif;
-    font-size: 14px;
     line-height: 1.7;
     /* or 171% */
 
@@ -173,9 +167,7 @@ color: var(--primary-white-color);
 .join,
 .subscribe{
     color: var(--primary-white-color);
-    font-family: Roboto,sans-serif;
     font-weight: bold;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     background-color: var(--secondary-text-color);
@@ -185,7 +177,6 @@ color: var(--primary-white-color);
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     text-decoration: none;
-    font-family: Roboto,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -202,7 +193,6 @@ color: var(--primary-white-color);
 .apps .button{
     background: var(--primary-text-color);
     color: var(--secondary-text-color);
-    font-family: Roboto,sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -212,11 +202,23 @@ color: var(--primary-white-color);
     cursor: pointer;
 
 }
+
 .apps-link .text{
-    font-family: Roboto,sans-serif;
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.9;
     /* identical to box height, or 187% */
+
+    letter-spacing: 0.03em;
+}
+.link-our{
+    text-decoration: none;
+}
+.text-title{
+    color: var(--primary-white-color);
+    font-size: 18px;
+    line-height: 1.5;
+    /* or 156% */
 
     letter-spacing: 0.03em;
 }
@@ -228,7 +230,6 @@ color: var(--primary-white-color);
 
 .apps-link .title{
     color: var(--secondary-text-color);
-    font-family: Roboto,sans-serif;
     font-size: 18px;
     line-height: 2;
     /* identical to box height, or 200% */
@@ -236,8 +237,6 @@ color: var(--primary-white-color);
     letter-spacing: 0.06em;
 }
 .contact-footer{
-    font-family: Roboto,sans-serif;
-    font-size: 14px;
     line-height: 1.7;
     font-style: normal;
 }

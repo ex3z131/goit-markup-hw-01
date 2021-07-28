@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -32,91 +35,99 @@
 </header>
 <main>
     <section class="apps">
-        <ul class="apps-nav">
+        <div>
+            <button type="button" class="button">Все</button>
+
+            <button type="button" class="button">Веб-сайты</button>
+
+            <button type="button" class="button">Приложения</button>
+
+            <button type="button" class="button">Дизайн</button>
+
+            <button type="button" class="button">Маркетинг</button>
+        </div>
+        <ul class="apps-link list">
             <li>
-                <a href="" class="link">Все</a>
+                <a href=""><img src=./images/texnokryak.png alt="Технокряк" class="photolink">
+                    <h2 class="title">Технокряк</h2>
+                    <p class="text">Веб-сайт</p>
+                    <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                </a>
+
             </li>
             <li>
-                <a href="" class="link">Веб-сайты</a>
+                <a href=""><img src="./images/postergoldenvsnew.png" alt="Постер" class="photolink">
+                    <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                    <p class="text">Дизайн</p>
+                </a>
             </li>
             <li>
-                <a href="" class="link">Приложения</a>
+                <a href=""><img src="./images/seafood.png" alt="Ресторан Seafood" class="photolink">
+                    <h2 class="title">Ресторан Seafood</h2>
+                    <p class="text">Приложение</p>
+                </a>
             </li>
             <li>
-                <a href="" class="link">Дизайн</a>
+                <a href="">
+                    <img src="./images/projectprime.png" alt="Проект Prime" class="photolink">
+                    <h2 class="title">Проект Prime</h2>
+                    <p class="text">Маркетинг</p>
+                </a>
             </li>
             <li>
-                <a href="" class="link">Маркетинг</a>
-            </li>
-        </ul>
-        <ul class="apps-link">
-            <li>
-                <img src=./images/texnokryak.png alt="Технокряк" class="photolink">
-                <h2 class="title">Технокряк</h2>
-                <p>Веб-сайт</p>
+                <a href="">
+                    <img src="./images/projectboxes.png" alt="Проект Boxes" class="photolink">
+                    <h2 class="title">Проект Boxes</h2>
+                    <p class="text">Приложение</p>
+                </a>
+
             </li>
             <li>
-                <img src="./images/postergoldenvsnew.png" alt="Постер" class="photolink">
-                <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                <a href="">  <img src="./images/inspiration.png" alt="Inspiration has no Borders" class="photolink">
+                    <h2 class="title">Inspiration has no Borders</h2>
+                    <p class="text">Веб-сайт</p></a>
             </li>
             <li>
-                <img src="./images/seafood.png" alt="Ресторан Seafood" class="photolink">
-                <h2 class="title">Ресторан Seafood</h2>
-                <p>Приложение</p>
+                <a href=""><img src="./images/limitededition.png" alt="Издание Limited Edition" class="photolink">
+                    <h2 class="title">Издание Limited Edition</h2>
+                    <p class="text">Дизайн</p></a>
+
             </li>
             <li>
-                <img src="./images/projectprime.png" alt="Проект Prime" class="photolink">
-                <h2 class="title">Проект Prime</h2>
-                <p>Маркетинг</p>
+                <a href="">
+                    <img src="./images/projectlab.png" alt="Проект LAB" class="photolink">
+                    <h2 class="title">Проект LAB</h2>
+                    <p class="text">Маркетинг</p>
+                </a>
             </li>
             <li>
-                <img src="./images/projectboxes.png" alt="Проект Boxes" class="photolink">
-                <h2 class="title">Проект Boxes</h2>
-                <p>Приложение</p>
-            </li>
-            <li>
-                <img src="./images/inspiration.png" alt="Inspiration has no Borders" class="photolink">
-                <h2 class="title">Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./images/limitededition.png" alt="Издание Limited Edition" class="photolink">
-                <h2 class="title">Издание Limited Edition</h2>
-                <p>Дизайн</p>
-            </li>
-            <li>
-                <img src="./images/projectlab.png" alt="Проект LAB" class="photolink">
-                <h2 class="title">Проект LAB</h2>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <img src="./images/growigbussines.png" alt="Growing Business" class="photolink">
-                <h2 class="title">Growing Business</h2>
-                <p>Приложение</p>
+                <a href=""> <img src="./images/growigbussines.png" alt="Growing Business" class="photolink">
+                    <h2 class="title">Growing Business</h2>
+                    <p class="text">Приложение</p>
+                </a>
             </li>
         </ul>
     </section>
 </main>
 <footer>
-    <a href="">Webstudio</a>
+    <a href="" class="logo">Webstudio</a>
     <address>
-        <ul class="information">
+        <ul class="information list">
             <li>
                 <p class="place">г.Киев,пр-т Леси Украинки,26 </p>
             </li>
             <li>
-                <p>info@example.com</p>
+                <p class="contact-footer">info@example.com</p>
             </li>
             <li>
-                <p>+38 099 111 11 11</p>
+                <p class="contact-footer">+38 099 111 11 11</p>
             </li>
         </ul>
     </address>
-    <ul class="feedback">
+    <ul class="feedback list">
         <li>
             <p class="join">Присоединяйтесь</p>
-            <ul>
+            <ul class="list">
                 <li>
                     <a href="https://www.instagram.com" class="link-social"></a>
                 </li>

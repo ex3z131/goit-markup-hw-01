@@ -15,20 +15,20 @@
     <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
     <ul class="site-nav list" >
         <li class="contact-items">
-            <a href="./index.html" class="link current">Студия</a>
+            <a href="./index.html" class="link-first current">Студия</a>
         </li>
         <li class="contact-items">
-            <a href="./portfolio.html" class="link">Портфолио</a>
+            <a href="./portfolio.html" class="link-first">Портфолио</a>
         </li>
         <li class="contact-items">
-            <a href="" class="link">Контакты</a>
+            <a href="" class="link-first">Контакты</a>
         </li>
     </ul>
         <ul class="contact-nav list">
-            <li class="contact-items">
+            <li class="contact-items icon-message">
                 <a href="" class="link-register">info@devstudio.com</a>
             </li>
-            <li class="contact-items">
+            <li class="contact-items icon-phone">
                 <a href="" class="link-register">+38 096 111 11 11</a>
             </li>
         </ul>
@@ -40,8 +40,10 @@
     <div></div>
     -->
     <section class="hero">
+        <div class="hero-back">
         <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
         <button type="button" class="button-hero">Заказать услугу</button>
+        </div>
     </section>
 
     <section class="help-section">
@@ -51,24 +53,24 @@
         <h2>Наша помощь</h2>
         -->
         <ul class="help-list list" >
-            <li class="help-section-item">
-                <img src="./images/Group.png" class="photo" alt="">
-                <h3 class="help-section title">Внимание к деталям</h3>
+            <li class="help-section-item icon-group">
+<!--                <img src="./images/Group.png" class="photo" alt="">-->
+                <h3 class="help-section-title">Внимание к деталям</h3>
                 <p class="help-text">Идейные соображения, а также начало повседневной работы по формированию позиции. </p>
             </li>
-            <li class="help-section-item">
-                <img src="./images/clock1.png" class="photo" alt="">
-                <h3 class="help-section title">Пунктуальность</h3>
+            <li class="help-section-item icon-clock1">
+<!--                <img src="./images/clock1.png" class="photo" alt="">-->
+                <h3 class="help-section-title ">Пунктуальность</h3>
                 <p class="help-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li class="help-section-item">
-                <img src="./images/diagram1.png" class="photo" alt="">
-                <h3 class="help-section title">Планирование</h3>
+            <li class="help-section-item icon-diagram1">
+<!--                <img src="./images/diagram1.png" class="photo" alt="">-->
+                <h3 class="help-section-title ">Планирование</h3>
                 <p class="help-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li class="help-section-item">
-                <img src="./images/astronaut1.png" class="photo" alt="">
-                <h3 class="help-section title">Современные технологии</h3>
+            <li class="help-section-item icon-astronaut1">
+<!--                <img src="./images/astronaut1.png" class="photo" alt="">-->
+                <h3 class="help-section-title ">Современные технологии</h3>
                 <p class="help-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий. </p>
             </li>
         </ul>
@@ -99,6 +101,7 @@
         <ul class="list">
             <li class="team-list">
                 <img src="./images/nikolaikycherenko.jpg" class="photo-team" alt="">
+                <div class="background-team">
                 <p class="namepeople">Николай Кучеренко </p> <p class="product-text">product designer</p>
                 <ul class="list">
                     <li class="team-link">
@@ -114,6 +117,7 @@
                         <a href="https://instgram.com" class="link-social">d</a>
                     </li>
                 </ul>
+                </div>
             </li>
 
             <li class="team-list">
@@ -175,7 +179,7 @@
     </section>
     <section class="regular-customers">
         <div class="container">
-        <h2 class="title">Постоянные клиенты</h2>
+        <h2 class="title ">Постоянные клиенты</h2>
         <ul class="list">
             <li>
                 <a href="" class="link-company">a</a>
@@ -199,17 +203,18 @@
         </div>
     </section>
 </main>
-<footer>
-    <a href="" class="logo"><span class="logo-blue">Web</span>studio</a>
-    <address>
+<footer class="footer-back">
+    <div class="container">
+    <a href="" class="logo"><span class="logo-blue">Web</span><span class="logo-white">studio</span></a>
+    <address class="address-footer">
         <ul class="information list">
-            <li>
+            <li class="information-place">
                 <p class="place">г.Киев,пр-т Леси Украинки,26 </p>
             </li>
-            <li>
-                <p class="contact-footer">info@example.com</p>
+            <li class="contact">
+                <p class="contact-footer email">info@example.com</p>
             </li>
-            <li>
+            <li class="contact">
                 <p class="contact-footer">+38 099 111 11 11</p>
             </li>
         </ul>
@@ -219,16 +224,16 @@
             <p class="join">Присоединяйтесь</p>
             <ul class="list">
                 <li>
-                    <a href="https://www.instagram.com" class="link-social"></a>
+                    <a href="https://www.instagram.com" class="link-social instagram"></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com" class="link-social"></a>
+                    <a href="https://twitter.com" class="link-social twitter"> </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com" class="link-social"></a>
+                    <a href="https://www.facebook.com" class="link-social facebook"></a>
                 </li>
                 <li>
-                    <a href="https://www.in.com" class="link-social"></a>
+                    <a href="https://www.in.com" class="link-social linkedin"></a>
                 </li>
             </ul>
         </li>
@@ -236,8 +241,11 @@
             <p class="subscribe">Подпишитесь на рассылку</p>
         </li>
     </ul>
+        <div class="footer-form">
     <p>E-mail</p>
-    <a href="" class="button">Подписаться</a>
+    <a href="" class="button button-footer">Подписаться</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
